@@ -1,0 +1,119 @@
+.container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.innerContainer {
+    text-align: center;
+    border: 1px solid black;
+    color: #fff;
+    background-color: #009688;
+    cursor: pointer;
+}
+.meetName {
+    font-weight: bolder;
+}
+
+.btnContainerAddMeet {
+    background-color: #121215;
+    color: #fff;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    white-space: nowrap;
+    margin-top: 15px;
+    margin-left: 49%;
+
+}
+
+.btnContainer {
+    background-color: #121215;
+    color: white;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 4px;
+    white-space: nowrap;
+    margin-top: 15px;
+
+}
+
+.formStyles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.next {
+    display: flex;
+    justify-content: center;
+}
+
+.GotoHome {
+    display: flex;
+    justify-content: center;
+    background-color: #282c34;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-bottom: 15px;
+}
+
+.Home {
+    margin: 0 32%;
+    border-radius: 4px;
+}
+
+.AddMeetingForm {
+    margin: 0 32%;
+    border-radius: 4px;
+    padding: 3%;
+    background-color: #009688;
+}
+
+input {
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+input:focus {
+    border-color: #333;
+}
+
+select {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 21px;
+    width: 80px;
+}
+
+.selectDiv{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    padding: 8px;
+}
+
